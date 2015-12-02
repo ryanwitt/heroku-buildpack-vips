@@ -54,7 +54,7 @@ ls $output_dir | indent
 echo "listing output_dir $output_dir/lib" | indent
 ls $output_dir/lib | indent
 echo "listing output_dir $output_dir/lib/pkgconfig" | indent
-ls $output_dir/lib/pgconfig | indent
+ls $output_dir/lib/pkgconfig | indent
 
 echo "listing temp_app_dir $temp_app_dir" | indent
 ls $temp_app_dir | indent
