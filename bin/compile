@@ -49,6 +49,20 @@ cp -r $output_dir/bin/* $BUILD_DIR/bin/
 
 echo "libvips installed" | indent
 
+echo "listing output_dir $output_dir" | indent
+ls $output_dir | indent
+echo "listing output_dir $output_dir/lib" | indent
+ls $output_dir/lib | indent
+echo "listing output_dir $output_dir/lib/pkgconfig" | indent
+ls $output_dir/lib/pgconfig | indent
+
+echo "listing temp_app_dir $temp_app_dir" | indent
+ls $temp_app_dir | indent
+echo "listing temp_app_dir $temp_app_dir/lib" | indent
+ls $temp_app_dir/lib | indent
+echo "listing temp_app_dir $temp_app_dir/lib/pkgconfig" | indent
+ls $temp_app_dir/lib/pkgconfig | indent
+
 #echo "Creating new env var in $3" | indent
 
 #echo "\$PKG_CONFIG_PATH:/app/vendor/vips/lib/pkgconfig" > $3/PKG_CONFIG_PATH
