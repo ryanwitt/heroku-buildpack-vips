@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
 # bin/compile <build-dir> <cache-dir>
 
+set -eo pipefail
+
 function indent() {
   c='s/^/       /'
   case $(uname) in
